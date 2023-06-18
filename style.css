@@ -20,6 +20,7 @@ body{
 
 .hide{
     display: none;
+    transition: all 3s ease-in-out;
 }
 
 .conteiner{
@@ -61,6 +62,7 @@ h3{
 /* Clima */
 
 .weather-data{
+    transition: all 3s ease-in-out;
     border-top: 1px solid #999999;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
@@ -85,6 +87,11 @@ h3{
 }
 #pais{
     height: 15px;
+}
+#descricao{
+   font-family: "Roboto", "Helvetica Neue",sans-serif;
+   font-weight: bold;
+   text-transform: capitalize; 
 }
 .conteiner-descricao{
     display: flex;
