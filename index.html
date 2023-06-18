@@ -6,12 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API - CLIMA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="conteiner">
-        <h1>Veja o clima de uma cidade</h1>
-        <div class="display">
-            
+        <div class="form">
+            <h3 class="fs-3">Veja o clima de uma cidade</h3>
+            <div class="form-input-conteiner">
+                <input type="text" placeholder="Ex: Rio de Janeiro" id="city-input">
+                <button id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="weather-data">
+                <h2 class="fs-2">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span id="city">Volta Redonda</span>
+                    <img src="" alt="bandeira-do-país" id="pais">
+                </h2>
+                <p id="temperatura">
+                    <span>17</span>°C
+                </p>
+                <div class="conteiner-descricao">
+                    <p id="descricao">Nublado</p>
+                    <img src="" alt="condição-do-tempo" id="weather-icon">
+                </div>
+                <div class="conteiner-detalhes">
+                    <p id="umidade">
+                        <i class="fa-solid fa-droplet"></fa-solid></i>
+                        <span>23%</span>
+                    </p>
+                    <p id="vento">
+                        <i class="fa-solid fa-wind"></fa-solid></i>
+                        <span>4km/h</span>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>  
 </body>
