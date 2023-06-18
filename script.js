@@ -59,3 +59,17 @@ searchBtn.addEventListener("click", (e) => {
     showWeatherData(city);
 
 })
+
+weatherConteiner.addEventListener("load", () => {
+    console.log("Carregando...");
+});
+
+cityInput.addEventListener("keyup", (e) => {
+
+    if(e.code === "enter"){
+        const city = e.target.value;
+
+        showWeatherData(city)
+    }
+
+})

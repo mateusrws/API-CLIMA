@@ -19,8 +19,8 @@ body{
 }
 
 .hide{
+    transition: 1s;
     display: none;
-    transition: all 3s ease-in-out;
 }
 
 .conteiner{
@@ -62,11 +62,11 @@ h3{
 /* Clima */
 
 .weather-data{
-    transition: all 3s ease-in-out;
     border-top: 1px solid #999999;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     text-align: center;
+    transition: 1s;
 }
 
 .weather-data h2{
