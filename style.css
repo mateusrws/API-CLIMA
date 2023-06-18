@@ -88,11 +88,6 @@ h3{
 #pais{
     height: 15px;
 }
-#descricao{
-   font-family: "Roboto", "Helvetica Neue",sans-serif;
-   font-weight: bold;
-   text-transform: capitalize; 
-}
 .conteiner-descricao{
     display: flex;
     justify-content: center;
