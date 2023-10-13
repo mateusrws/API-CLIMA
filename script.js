@@ -40,7 +40,7 @@ const showWeatherData = async (city) => {
     tempElement.innerText = data.main.temp.toFixed(0)
     descElement.innerText = data.weather[0].description
     weatherIconElemnt.setAttribute("src", `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`)
-    paisElement.setAttribute("src", `https://www.countryflagicons.com/FLAT/32/${data.sys.country}.png`)
+    paisElement.setAttribute("src", `http://purecatamphetamine.github.io/country-flag-icons/3x2/${data.sys.country}.svg`)
     umidityElement.innerText = `${data.main.humidity}%`
     windElement.innerText = `${parseInt(data.wind.speed )}km/h`
 
